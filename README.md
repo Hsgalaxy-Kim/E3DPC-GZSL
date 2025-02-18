@@ -1,5 +1,5 @@
 # Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-based Dynamic Calibration
-This is the official repository related to "Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-based Dynamic Calibration" (AAAI 2025)
+This is the official repository related to "Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-based Dynamic Calibration" (AAAI 2025, Oral)
 
 Meterials: [Poster](Material/E3DPC-GZSL_Poster.pdf)
 
