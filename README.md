@@ -12,6 +12,7 @@ Generalized zero-shot semantic segmentation of 3D point clouds aims to classify 
 * Python: 3.7
 * Pytorch: 1.10.1
 * CUDA: 11.3
+
 For other libraries, please refer to 'requirements.txt'.
   ```
   pip install -r requirements.txt
