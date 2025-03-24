@@ -13,9 +13,16 @@ Generalized zero-shot semantic segmentation of 3D point clouds aims to classify 
 * Pytorch: 1.10.1
 * CUDA: 11.3
 
-For other libraries, please refer to 'requirements.txt'.
+For other libraries, please refer to `requirements.txt`.
   ```
   pip install -r requirements.txt
+  ```
+
+Download [torch_cluster](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_cluster-1.6.0-cp37-cp37m-linux_x86_64.whl), [torch_sparse](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_sparse-0.6.13-cp37-cp37m-linux_x86_64.whl), [torch_scatter](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_scatter-2.0.9-cp37-cp37m-linux_x86_64.whl) `.whl` files.
+  ```
+  pip install torch_cluster-1.6.0-cp37-cp37m-linux_x86_64.whl
+  pip install torch_sparse-0.6.13-cp37-cp37m-linux_x86_64.whl
+  pip install torch_scatter-2.0.9-cp37-cp37m-linux_x86_64.whl
   ```
 
 ## The code will be released soon.
