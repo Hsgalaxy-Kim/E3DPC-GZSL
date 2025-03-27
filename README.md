@@ -13,7 +13,7 @@ Generalized zero-shot semantic segmentation of 3D point clouds aims to classify 
 * Pytorch: 1.10.1
 * CUDA: 11.3
 ```
-conda create -n E3DPC-GZSL python=3.7
+conda create -n E3DPC-GZSL python=3.7 -y
 conda activate E3DPC-GZSL
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
 ```
