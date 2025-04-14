@@ -33,3 +33,14 @@ Download [torch_cluster](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_clu
   ```
 
 ## The code will be released soon.
+
+## Citation
+
+    @inproceedings{Kim_Kang_Lee_2025,
+        author  = "Kim, Hyeonseok and Kang, Byeongkeun and Lee, Yeejin",
+        year    = 2025,
+        title   = "{Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-Based Dynamic Calibration}",
+        booktitle="Proceedings of the AAAI Conference on Artificial Intelligence", 
+        pages   = "4248-4256",
+    }
+  
