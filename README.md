@@ -1,7 +1,7 @@
 # Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-based Dynamic Calibration
 This is the official repository related to "Generalized Zero-Shot Learning for Point Cloud Segmentation with Evidence-based Dynamic Calibration" (AAAI 2025, Oral)
 
-Paper: [Proceeding](https://ojs.aaai.org/index.php/AAAI/article/view/32446)
+Paper: [Proceeding](https://ojs.aaai.org/index.php/AAAI/article/view/32446), The arXiv version (with supplementary materials) will be released soon.
 
 Meterials: [Poster](Material/E3DPC-GZSL_Poster.pdf) & [Presentation](Material/E3DPC-GZSL_presentation.pdf)
 
@@ -186,6 +186,14 @@ Please modify the ``path`` argument in ``.sh`` file.
   ```
 
 ## The code will be released soon.
+
+## Quantitative results
+
+DATASET | Seen mIoU | Unseen mIoU | All mIoU | HmIoU |
+|-------|-----------|-------------|----------|-------|
+ScanNet v2 | 36.1 | 15.4 | 32.0 | 21.6 |
+S3DIS | 67.9 | 12.0 | 50.7 | 20.4 |
+SemanticKITT | 50.8 | 14.0 | 43.0 | 21.9 |
 
 ## Acknowledgement
 
