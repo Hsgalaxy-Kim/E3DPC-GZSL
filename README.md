@@ -138,6 +138,8 @@ bash install_gzsl3d.sh
 
 ## Inference
 
+Please modify the ``--ckpt_path`` argument in ``.sh`` file.
+
 * ScanNet v2
 
   ```
