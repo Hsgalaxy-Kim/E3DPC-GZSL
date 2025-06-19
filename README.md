@@ -136,7 +136,16 @@ cd E3DPC-GZSL/
 bash install_gzsl3d.sh
 ```
 
+## Inference
+
+
+
 ## The code will be released soon.
+
+## Acknowledgement
+
+Our E3DPC-GZSL framework builds upon [3DPC-GZSL](https://github.com/leolyj/3DPC-GZSL) and [3DGenZ](https://github.com/valeoai/3DGenZ).
+Its backbone is implemented based on [KFAConv](https://github.com/valeoai/FKAConv), [ConvPoint](https://github.com/aboulch/ConvPoint), and [KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch).
 
 ## Citation
 
