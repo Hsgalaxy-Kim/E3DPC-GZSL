@@ -171,7 +171,8 @@ Please modify the ``path`` argument in ``.sh`` file.
   ```
 
 * S3DIS
-  During inference, we use the Scikit-learn and multiprocessing-based version instead of the nearest_neighbors.knn_batch_distance_pick function inside 3DGZSL/gzsl3d/convpoint/convpoint/nn/layer_base_test.py.
+  
+  We use the Scikit-learn and multiprocessing-based version during inference instead of the nearest_neighbors.knn_batch_distance_pick function in ``3DGZSL/gzsl3d/convpoint/convpoint/nn/layer_base_test.py``.
   ```
    cd ./3DGZSL/gzsl3d/convpoint/examples/s3dis/scripts_final_eval
    bash ./final_eval_retrained.sh
