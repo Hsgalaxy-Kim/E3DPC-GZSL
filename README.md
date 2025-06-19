@@ -136,9 +136,32 @@ cd E3DPC-GZSL/
 bash install_gzsl3d.sh
 ```
 
+## Training
+
+* ScanNet v2
+
+  ```
+   cd ./3DGZSL/gzsl3d/seg/scripts_sn
+   bash ./retrain_sn_weight50.sh
+  ```
+
+* S3DIS
+
+  ```
+   cd ./3DGZSL/gzsl3d/seg/scripts_s3dis
+   bash ./retrain_s3dis_weight50.sh
+  ```
+
+* SemanticKITTI
+
+  ```
+   cd ./3DGZSL/gzsl3d/seg/scripts_sk
+   bash ./retrain_sk_weight50.sh
+  ```
+
 ## Inference
 
-Please modify the ``--ckpt_path`` argument in ``.sh`` file.
+Please modify the ``path`` argument in ``.sh`` file.
 
 * ScanNet v2
 
