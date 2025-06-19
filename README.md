@@ -32,6 +32,76 @@ Download [torch_cluster](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_clu
   pip install torch_scatter-2.0.9-cp37-cp37m-linux_x86_64.whl
   ```
 
+## Installation
+
+### Build the backbone network
+
+  * [ConvPoint](https://github.com/aboulch/ConvPoint) for S3DIS:
+   ```
+    cd ./3DGZSL/gzsl3d/convpoint/convpoint/knn
+    python3 setup.py install --home="."
+   ```
+  Move the files `nearest_neighbors.cpython-37m-x86_64-linux-gnu.so` and `nearest_neighbors.py` from `convpoint/convpoint/knn/lib/python/KNN_NanoFLANN-0.0.0-py3.7-linux-x86_64.egg/` to `convpoint/convpoint/knn/lib/python/`.
+  
+  * [FKAConv](https://github.com/valeoai/FKAConv) for ScanNet v2:
+   ```
+    cd ./3DGZSL/gzsl3d/fkaconv
+    pip install -ve .
+   ```
+  * [KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch) for SemanticKITTI:
+   ```
+    cd ./3DGZSL/gzsl3d/kpconv/cpp_wrappers
+    bash ./compile_wrappers.sh
+   ```
+
+### Download the dataset 
+
+```
+./3DGZSL/
+└── data/
+    ├── s3dis/
+    ├── scannet/
+    └── semantic_kitti/
+```
+  * ScanNet v2
+      ```
+      scannet/
+      ├── README.md
+      ├── scannet_train.pickle
+      └── scannet_test.pickle
+      ```
+      * Download the processed data from [this link](https://shapenet.cs.stanford.edu/media/scannet_data_pointnet2.zip).
+      * If the above link does not work, follow [this link](https://github.com/charlesq34/pointnet2/tree/master/scannet) to process the data manually.
+
+  * S3DIS
+      ```
+      s3ids/
+      ├── README.md
+      ├── Stanford3dDataset_v1.2_Aligned_Version/
+      └── processed_data/
+          ├── Area_1/
+          ├── Area_2/
+          └── ...
+      ```
+      * Download the Stanford3dDataset_v1.2_Aligned_Version from [this link](http://buildingparser.stanford.edu/dataset.html)
+      * To preprocess the data, proceed as follows:
+      ```
+        python ./3DGZSL/gzsl3d/convpoint/examples/s3dis/prepare_s3dis_label.py --folder './3DGZSL/data/s3dis/Stanford3dDataset_v1.2_Aligned_Version' --dest './3DGZSL/data/s3dis/processed_data'
+      ```
+  * SemanticKITTI
+      ```
+      semantic_kitti/
+      ├── README.md
+      ├── semantic-kitti.yaml
+      ├── semantic-kitti-all.yaml
+      └── sequences/
+          ├── 00/
+          ├── 01/
+          └── ...
+      ```
+      * Download the files [semantic-kitti.yaml](https://github.com/PRBonn/semantic-kitti-api/blob/master/config/semantic-kitti.yaml) and [semantic-kitti-all.yaml](https://github.com/PRBonn/semantic-kitti-api/blob/master/config/semantic-kitti-all.yaml).
+      * Follow the ``README.md`` to reformat the directory structure.
+
 ## The code will be released soon.
 
 ## Citation
