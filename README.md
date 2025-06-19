@@ -102,6 +102,40 @@ Download [torch_cluster](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_clu
       * Download the files [semantic-kitti.yaml](https://github.com/PRBonn/semantic-kitti-api/blob/master/config/semantic-kitti.yaml) and [semantic-kitti-all.yaml](https://github.com/PRBonn/semantic-kitti-api/blob/master/config/semantic-kitti-all.yaml).
       * Follow the ``semantic_kitti/README.md`` to reformat the directory structure.
 
+### Download the pre-trained backbone parameter
+
+Downlaod the parameters from [this link](https://drive.google.com/drive/folders/1cvoUn9NaDp1IMJU_m_bvfU5g-9fne9ED).
+
+  * ScanNet v2
+    ```
+      ./3DGZSL/gzsl3d/fkaconv/examples/scannet/FKAConv_scannet_ZSL4/
+      ├── PATH
+      ├── logs.txt
+      ├── config.yaml
+      └── checkpoint.pth
+      ```
+  * S3DIS
+    ```
+      ./3DGZSL/gzsl3d/convpoint/examples/s3dis/ConvPoint_s3dis_ZSL4/
+      ├── PATH
+      └── state_dict.pth
+      ```
+  * SemanticKITTI
+    ```
+      ./3DGZSL/gzsl3d/kpconv/results/
+      └── Log_SemanticKITTI/
+          ├── PATH
+          ├── parameters.txt
+          └── checkpoints
+              └── chkp_0250.tar
+      ```
+
+### Installation of the 3DGZSL package
+```
+cd E3DPC-GZSL/
+bash install_gzsl3d.sh
+```
+
 ## The code will be released soon.
 
 ## Citation
