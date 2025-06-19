@@ -138,13 +138,33 @@ bash install_gzsl3d.sh
 
 ## Inference
 
+* ScanNet v2
 
+  ```
+   cd ./3DGZSL/gzsl3d/fkaconv/examples/scannet/scripts_final_eval
+   bash ./final_eval_retrained.sh
+  ```
+
+* S3DIS
+
+  ```
+   cd ./3DGZSL/gzsl3d/convpoint/examples/s3dis/scripts_final_eval
+   bash ./final_eval_retrained.sh
+  ```
+
+* SemanticKITTI
+
+  ```
+   cd ./3DGZSL/gzsl3d/kpconv/scripts_final_eval/W50
+   python ./test_zsl_models_bias0.2_retrained.py
+  ```
 
 ## The code will be released soon.
 
 ## Acknowledgement
 
 Our E3DPC-GZSL framework builds upon [3DPC-GZSL](https://github.com/leolyj/3DPC-GZSL) and [3DGenZ](https://github.com/valeoai/3DGenZ).
+
 Its backbone is implemented based on [KFAConv](https://github.com/valeoai/FKAConv), [ConvPoint](https://github.com/aboulch/ConvPoint), and [KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch).
 
 ## Citation
