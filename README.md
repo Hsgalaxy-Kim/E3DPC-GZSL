@@ -100,7 +100,7 @@ Download [torch_cluster](https://data.pyg.org/whl/torch-1.10.0%2Bcu113/torch_clu
           └── ...
       ```
       * Download the files [semantic-kitti.yaml](https://github.com/PRBonn/semantic-kitti-api/blob/master/config/semantic-kitti.yaml) and [semantic-kitti-all.yaml](https://github.com/PRBonn/semantic-kitti-api/blob/master/config/semantic-kitti-all.yaml).
-      * Follow the ``README.md`` to reformat the directory structure.
+      * Follow the ``semantic_kitti/README.md`` to reformat the directory structure.
 
 ## The code will be released soon.
 
