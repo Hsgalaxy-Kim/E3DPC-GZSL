@@ -171,7 +171,7 @@ Please modify the ``path`` argument in ``.sh`` file.
   ```
 
 * S3DIS
-
+  During inference, we use the Scikit-learn and multiprocessing-based version instead of the nearest_neighbors.knn_batch_distance_pick function inside 3DGZSL/gzsl3d/convpoint/convpoint/nn/layer_base_test.py.
   ```
    cd ./3DGZSL/gzsl3d/convpoint/examples/s3dis/scripts_final_eval
    bash ./final_eval_retrained.sh
@@ -201,4 +201,17 @@ Its backbone is implemented based on [KFAConv](https://github.com/valeoai/FKACon
         booktitle="Proceedings of the AAAI Conference on Artificial Intelligence", 
         pages   = "4248-4256",
     }
+
+## License
+
+Our E3DPC-GZSL: Apache-2.0 License
+
+FKAConv: Apache-2.0 License. [details](https://github.com/valeoai/FKAConv/blob/main/LICENSE)
+
+ConvPoint: GPLv3 License. [details](https://github.com/aboulch/ConvPoint/blob/master/LICENSE.md)
+
+KPConv: MIT License. [details](https://github.com/HuguesTHOMAS/KPConv-PyTorch/blob/master/LICENSE.txt)
+
+3DGZSL/gzsl3d/seg/utils : MIT License. [details](https://github.com/jfzhang95/pytorch-deeplab-xception/blob/master/LICENSE)
+
   
