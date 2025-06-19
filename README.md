@@ -205,7 +205,7 @@ Its backbone is implemented based on [KFAConv](https://github.com/valeoai/FKACon
 
 ## License
 
-Our E3DPC-GZSL: Apache-2.0 License
+Our E3DPC-GZSL: Apache-2.0 License. [details](https://github.com/Hsgalaxy-Kim/E3DPC-GZSL/blob/main/LICENSE)
 
 FKAConv: Apache-2.0 License. [details](https://github.com/valeoai/FKAConv/blob/main/LICENSE)
 
