@@ -184,6 +184,7 @@ Please modify the ``path`` argument in ``.sh`` file.
    cd ./3DGZSL/gzsl3d/kpconv/scripts_final_eval/W50
    python ./test_zsl_models_bias0.2_retrained.py
   ```
+We probide our pre-trained model parameter in [this link](https://drive.google.com/drive/folders/1TSatQhLHBvVeAnqTUFMaMvGeVIpRdx-j?usp=sharing).
 
 ## The code will be released soon.
 
