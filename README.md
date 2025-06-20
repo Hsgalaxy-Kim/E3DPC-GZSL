@@ -194,7 +194,6 @@ DATASET | Seen mIoU | Unseen mIoU | All mIoU | HmIoU |
 |-------|-----------|-------------|----------|-------|
 ScanNet v2 | 36.1 | 15.4 | 32.0 | 21.6 |
 S3DIS | 67.9 | 12.0 | 50.7 | 20.4 |
-SemanticKITTI | 50.8 | 14.0 | 43.0 | 21.9 |
 
 ## Acknowledgement
 
