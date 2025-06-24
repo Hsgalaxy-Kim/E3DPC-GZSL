@@ -190,10 +190,21 @@ We probide our pre-trained model parameter in [this link](https://drive.google.c
 
 ## Quantitative results
 
-DATASET | Seen mIoU | Unseen mIoU | All mIoU | HmIoU |
-|-------|-----------|-------------|----------|-------|
-ScanNet v2 | 36.1 | 15.4 | 32.0 | 21.6 |
-S3DIS | 67.9 | 12.0 | 50.7 | 20.4 |
+* ScanNet v2
+  
+  | Model | Seen mIoU | Unseen mIoU | All mIoU | HmIoU |
+  |-------|-----------|-------------|----------|-------|
+  3DGenZ | 32.8 | 7.7 | 27.8 | 12.5 |
+  3DPC-GZSL | 34.5 | 14.3 | 30.4 | 20.2 |
+  E3DPC-GZSL | 36.1 | 15.4 | 32.0 | 21.6 |
+
+* S3DIS
+
+  | Model | Seen mIoU | Unseen mIoU | All mIoU | HmIoU |
+  |-------|-----------|-------------|----------|-------|
+  3DGenZ | 53.1 | 7.3 | 39.0 | 12.9 |
+  3DPC-GZSL | 58.9 | 9.7 | 43.8 | 16.7 |
+  E3DPC-GZSL | 67.9 | 12.0 | 50.7 | 20.4 |
 
 ## Acknowledgement
 
