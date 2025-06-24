@@ -186,7 +186,7 @@ Please modify the ``path`` argument in ``.sh`` file.
   ```
 We probide our pre-trained model parameter in [this link](https://drive.google.com/drive/folders/1TSatQhLHBvVeAnqTUFMaMvGeVIpRdx-j?usp=sharing).
 
-## The code will be released soon.
+## The SemanticKITTI code will be released soon.
 
 ## Quantitative results
 
