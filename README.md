@@ -206,6 +206,13 @@ We probide our pre-trained model parameter in [this link](https://drive.google.c
   3DPC-GZSL | 58.9 | 9.7 | 43.8 | 16.7 |
   E3DPC-GZSL | 67.9 | 12.0 | 50.7 | 20.4 |
 
+* SemanticKITTI
+  | Model | Seen mIoU | Unseen mIoU | All mIoU | HmIoU |
+  |-------|-----------|-------------|----------|-------|
+  3DGenZ | 41.4 | 10.8 | 35.0 | 17.1 |
+  3DPC-GZSL | 46.4 | 12.8 | 39.4 | 20.1 |
+  E3DPC-GZSL | 50.8 | 14.0 | 43.0 | 21.9 |
+
 ## Acknowledgement
 
 Our E3DPC-GZSL framework builds upon [3DPC-GZSL](https://github.com/leolyj/3DPC-GZSL) and [3DGenZ](https://github.com/valeoai/3DGenZ).
