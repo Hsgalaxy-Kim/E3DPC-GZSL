@@ -1,0 +1,1 @@
+python3 test_zsl_models_bias0.2_retrained.py --chosen_chkp="../seg/run/sk/sk_gmmn_weighted50_zsl_retrained/experiment_0/20_model.pth.tar" --chosen_u_chkp="../seg/run/sk/sk_gmmn_weighted50_zsl_retrained/experiment_0/20_model.pth.tar
