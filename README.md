@@ -10,6 +10,9 @@ Meterials: [Poster](Material/E3DPC-GZSL_Poster.pdf) & [Presentation](Material/E3
 ## Abstract
 Generalized zero-shot semantic segmentation of 3D point clouds aims to classify each point into both seen and unseen classes. A significant challenge with these models is their tendency to make biased predictions, often favoring the classes encountered during training. This problem is more pronounced in 3D applications, where the scale of the training data is typically smaller than in image-based tasks. To address this problem, we propose a novel method called E3DPC-GZSL, which reduces overconfident predictions towards seen classes without relying on separate classifiers for seen and unseen data. E3DPC-GZSL tackles the overconfidence problem by integrating an evidence-based uncertainty estimator into a classifier. This estimator is then used to adjust prediction probabilities using a dynamic calibrated stacking factor that accounts for pointwise prediction uncertainty. In addition, E3DPC-GZSL introduces a novel training strategy that improves uncertainty estimation by refining the semantic space. This is achieved by merging learnable parameters with text-derived features, thereby improving model optimization for unseen data. Extensive experiments demonstrate that the proposed approach achieves state-of-the-art performance on generalized zero-shot semantic segmentation datasets, including ScanNet v2 and S3DIS.
 
+📝 **Note**: This repository also includes results on the outdoor dataset SemanticKITTI.
+Experimental results are provided in both this repository and the arXiv version (with supplementary materials), which will be released soon.
+
 ## Environments
 * Python: 3.7
 * Pytorch: 1.10.1
@@ -185,8 +188,6 @@ Please modify the ``path`` argument in ``.sh`` file.
    python ./test_zsl_models_bias0.2_retrained.py
   ```
 We probide our pre-trained model parameter in [this link](https://drive.google.com/drive/folders/1TSatQhLHBvVeAnqTUFMaMvGeVIpRdx-j?usp=sharing).
-
-## The SemanticKITTI code will be released soon.
 
 ## Quantitative results
 
